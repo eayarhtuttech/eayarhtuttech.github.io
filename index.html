@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eayar-Htut-portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="a logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                 <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                 <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                 <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Eayar Htut</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            FrontEnd Developer
+        </p>
+        <img src="images/coffee.jpg" alt="a picture of woman sitting in a coffee shop" class="intro__img">
+    </section>
+    
+    <!--My Services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+         <div class="service">
+             <h3>Front-end Web Development</h3>
+             <p>Responsility to ensure website visitors can easily interact with the page. They do this through the combination of design, technology and programming to code a website's appearance, as well as taking care of debugging</p>
+         </div> <!--/service-->
+
+         <div class="service">
+            <h3>WordPress</h3>
+            <p>A WordPress developer is a professional that specializes in the infrastructure and ecosystem of the WordPress platform. They might focus on improving the WordPress software itself or creating new products, particularly plugins and themes. ... This is a broad definition because WordPress development is such a broad field</p>
+        </div> <!--/service-->
+
+        <div class="service">
+            <h3>Quality Assurance</h3>
+            <p>The main goal of QA engineers is to prevent defects. Quality Control specialists, in their turn, analyze the test results and find mistakes. They are responsible for identifying and eliminating defects in a product</p>
+        </div> <!--/service-->
+    </div><!--/services-->
+
+    <a href="work" class="btn">My Work</a>
+    </section>
+
+    <!--about me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Freelance Front-end Web Developer</p>
+
+        <div class="about-me__body">
+            <p>Hi there! My name is Eayar Htut and I am a Front-end Web Developer! My interest in web development sparked soon after I learned some basic HTML and CSS courses. Then I enrolled a 16-weeks Bootcamp, where most of the curriculum foucs on HTML5, CSS3 and JavaScript. Right now,I am self-studying through crash courses at freeCodeCamp and LinkedIn.  
+            </p>
+            <p>I have been dedicating studying  everyday doing exercises and building projects that showcase my skillset in React, JavaScript, Node.js, SQL, CSS and more! I have learned so much and know that there is still so much more to learn, and I am eager to take it all in!
+            <br>   
+            I am always interested in new opportunities and connections, please feel free to reach out to me!</p>
+        </div>
+
+        <img src="images/park.jpg" alt="Eayar leaning against glass vessel" class="about-me__img">
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__subtitle--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+        
+            <a href="https://github.com/eayarhtuttech/random-quote-generator" class="portfolio__item">
+                <!--portfolio item 1-->
+                
+                 <video src="videos/RandomCodeGenerator.mp4" autoplay controls width="600px" height="600px">
+            </a>
+
+            <a href="https://github.com/eayarhtuttech/eayarhtut-fresheats" class="portfolio__item">
+                  <!--portfolio item 2-->
+                  <video src="videos/FreshEats.mp4" autoplay controls width="600px" height="600px">
+            </a>
+            <a href="https://github.com/eayarhtuttech/client-blog" class="portfolio__item">
+                   <!--portfolio item 3-->
+                   <video src="videos/ClientBlog.mp4" autoplay controls width="600px" height="600px">
+            </a>
+            <a href="https://foliageandivy.com/" class="portfolio__item">
+                  <!--portfolio item 4-->
+                  <video src="videos/TetraPlants.mp4" autoplay controls width="600px" height="600px">
+            </a>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <a href="mailto:eayarwinhtut@gmail.com" class="footer__link">eayarwinhtut@gmail.com</a>
+        <ul class="social-list">
+            <li calss="social-list__item">
+                <a calss="social-list__link" href="https://codepen.io/eayarh">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-codepen fa-stack-1x"></i>
+                      </span>
+                </a>
+            </li>
+            
+            <li calss="social-list__item">
+                <a calss="social-list__link" href="https://twitter.com/eayarhtut">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-twitter fa-stack-1x"></i>
+                      </span>
+                </a>
+            </li>
+            
+            <li calss="social-list__item">
+                <a calss="social-list__link" href="https://github.com/eayarhtuttech">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-github fa-stack-1x"></i>
+                      </span>
+                </a>
+            </li>
+            
+            <li calss="social-list__item">
+                <a calss="social-list__link" href="https://eayarhtut.com">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-wordpress fa-stack-1x"></i>
+                      </span>
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
